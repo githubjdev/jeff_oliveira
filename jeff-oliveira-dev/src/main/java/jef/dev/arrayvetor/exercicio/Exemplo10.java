@@ -7,7 +7,7 @@ public class Exemplo10 {
 		String[] nomes = {"Ana", "Paulo", "Amanda", "Julia", "Arthur"};
 		
 		for (String nome : nomes) {
-			if (nome.toLowerCase().endsWith("r".toLowerCase())) {
+			if (nome.toLowerCase().endsWith("o".toLowerCase())) {
 				System.out.println("Enncontrado: " + nome);
 			}
 		}
